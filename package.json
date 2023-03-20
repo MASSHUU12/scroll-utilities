@@ -1,5 +1,5 @@
 {
-  "name": "@masshuu/ts-scroll",
+  "name": "@masshuu/scroll-utilities",
   "version": "1.0.0",
   "description": "Library that provides utilities for scrolling and managing scroll behavior",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
   "author": "masshuu",
   "license": "ISC",
   "repository": {
-    "url": "https://github.com/MASSHUU12/ts-scroll"
+    "url": "https://github.com/MASSHUU12/scroll-utilities"
   },
   "devDependencies": {
     "ts-node": "^10.9.1",
