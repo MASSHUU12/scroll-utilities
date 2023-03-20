@@ -1,5 +1,5 @@
 {
-  "name": "ts-scroll",
+  "name": "@masshuu/ts-scroll",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -7,6 +7,7 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "private": "false",
   "author": "masshuu",
   "license": "ISC",
   "repository": {
