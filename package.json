@@ -1,7 +1,7 @@
 {
   "name": "@masshuu/ts-scroll",
   "version": "1.0.0",
-  "description": "",
+  "description": "Library that provides utilities for scrolling and managing scroll behavior",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
