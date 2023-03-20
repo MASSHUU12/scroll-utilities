@@ -9,6 +9,9 @@
   },
   "author": "masshuu",
   "license": "ISC",
+  "repository": {
+    "url": "https://github.com/MASSHUU12/ts-scroll"
+  },
   "devDependencies": {
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
