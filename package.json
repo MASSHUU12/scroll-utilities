@@ -7,7 +7,6 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": "false",
   "author": "masshuu",
   "license": "ISC",
   "repository": {
@@ -16,5 +15,20 @@
   "devDependencies": {
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
+  },
+  "files": [
+    "./dist"
+  ],
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
   }
 }

@@ -1,9 +1,11 @@
-import { ScrollIntoView } from "./types";
+export type ScrollIntoView = {
+  target: string;
+} & ScrollIntoViewOptions;
 
 /**
  * A static class that provides utilities for scrolling and managing scroll behavior.
  */
-class Scroll {
+export default class Scroll {
   /**
    * Enables scrolling on an HTML element by setting its overflow style to an empty string.
    *
@@ -60,5 +62,3 @@ class Scroll {
     });
   }
 }
-
-export default Scroll;
